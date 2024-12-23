@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resin Art Moon Store</title>
+    <link rel="stylesheet" href="site.css">
+    <script defer src="sss.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="site.html" alt="home">
+            <!--uses an image displaying the brand name with a width of 120px and height of 45px and is setup as a main anchoer as per the relative postion-->
+            <img src="Common Image\web.jpg" alt="Resin Art Moon Store" style="width: 120px; height:45px; margin:10px 60px ;position: relative;
+            right: 93px; bottom :1px" class="logo">
+        </a>  
+
+            <!--search bar class setup with a placeholder-->
+          <div class="search-bar">
+            <input type="text" placeholder="Search for anything">
+
+            <button>
+                <!--work in progress as it requires a database and backend-->
+              <a href="#">Search</a>
+            </button>
+
+          </div>
+
+
+          <!--navigation bar-->
+          <nav class="nav">
+            <ul>
+                  <li><a href="site.html">Home</a></li>    <!--home button sends us to the homepage-->
+
+                  <li><a href="About us\aboutas.html">About Us</a></li> <!--about us button sends us to the about us page where you can learn more about our team-->
+
+
+                    <!--a category dropdown list-->
+                    <li>
+                        <!-- not going to direct us as this is mainly displayed to be hovered over to go to the desired page -->
+                        <a href="#">Categories &#x25BE;</a>
+                        <ul class="dropdown">
+                            <li><a href="Categories\web.html">Accessories</a></li> <!--directs us to the accessories page-->
+                            <li><a href="Covers\covers.html">Covers</a></li> <!--directs us to the covers page-->
+                            <li><a href="key chains\key_chain.html">Key chain</a></li> <!--directs us to the kaychains page-->
+                            <li><a href="trays\Trays_site.html">Trays</a></li> <!--directs us to the tray page-->
+                            <li><a href="wall clocks\wall_clocks.html">Wall Clock</a></li> <!--directs us to the wall clocks page-->
+                        </ul>
+                    </li>
+
+                  <li><a href="contact.html">Contact Us</a></li> <!--directs us to the the contact page where you can reach out to us for further assistance :) -->
+            </ul>
+          </nav>
+          
+        <div class="bin">
+
+            <!--work in progress but is mainly the cart where the products we want gets listed  -->
+            <a href="#">
+                <img src="Common Image\cart.jpg" alt="CART" style="width:60px;height:60px;">
+            </a>
+
+            <!--directs us to the login page-->
+            <a href="Register\login.html">
+                <img src="Common Image\login.jpg" alt="login" style="width:60px;height:60px;position: relative;
+                left: 10px;">
+            </a>            
+    
+        </div>
+        
+      </header>
+    
+    <!-- Featured Section -->
+<section class="section" id="popular">
+    <h1>Discover Popular products</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="site\55.jpg" alt="Backpack 1">
+                <p>E Keychain</p>
+                120.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="site\66.jpg" alt="Backpack 2">
+                <p>D / M Bookmark</p>
+                250.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="site\77.jpg" alt="Backpack 3">
+                <p>Pink Tray</p>
+                300.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="site\88.jpg" alt="Backpack 4">
+                <p>Rose Mirror</p>
+                1000.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+</section>
+
+    <!-- Featured Categories -->
+<section class="section" id="categories">
+    <h2>Check out our Featured Products</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="site\11.jpg" alt="Backpack 1">
+                <p>Two floored tray</p>
+                1500.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="site\44.jpg" alt="Backpack 2">
+                <p>Mirror Clock</p>
+                1600.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="site\33.jpg" alt="Backpack 3">
+                <p>Red Earings</p>
+                300.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="site\22.jpg" alt="Backpack 4">
+                <p>F KeyChain</p>
+                120.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+</section>
+
+    <!--new products-->
+<section class="section" id="categories">
+    <h2>Check out our New Products</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="site\99.jpg" alt="Backpack 1">
+                <p>Bookmark</p>
+                100.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="Covers\Cover imges\5.jpg" alt="Backpack 2">
+                <p>Beach Cover</p>
+                500.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="card">
+                <img src="Covers\Cover imges\4.jpg" alt="Backpack 3">
+                <p>Razor Blades Cover</p>
+                300.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="Covers\Cover imges\2.jpg" alt="Backpack 4">
+                <p>Flower Power Cover</p>
+                250.00 LE<br>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+</section>
+
+
+    <!-- Footer -->
+<footer class="footer">
+    <div>
+        <a href="facebook.com">
+            <img src="Common Image/2.jpg" alt="facebook"  style="width:40px;height:40px;"> </img>
+        </a> 
+        <a href="instagram.com">
+            <img src="Common Image/1.jpg" alt="instagram"  style="width:40px;height:40px;"></img>
+        </a>
+    </div>
+
+    <p>&copy; 2024 Moon Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
